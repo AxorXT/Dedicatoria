@@ -371,3 +371,45 @@ button {
         top:63%;
     }
 }
+
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 20px;
+        top: 10%;
+    }
+
+    .imagen {
+        width: 80%;
+        top: 40%;
+    }
+
+    .gif {
+        width: 90px;
+        top: 86%;
+        left: 83%;
+    }
+
+    .gif2 {
+        width: 90px;
+        top: 86%;
+        left: 21%
+    }
+
+    button {
+        font-size: 25px;
+        top: 63%;
+        left: 16%;
+    }
+
+    .button2 {
+        font-size: 25px;
+        top: 74%;
+        left: 26%;
+    }
+
+    #lyricsContainer {
+        font-size: 15px;
+        top:55.5%;
+    }
+}
