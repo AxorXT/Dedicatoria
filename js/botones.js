@@ -78,29 +78,29 @@ let lyricsTimeouts = [];
 
 // Imágenes del carrusel (agrega aquí las imágenes que deseas mostrar)
 const imagenesCarrusel = [
-    'img/musica/gato.jpeg',  // Cambia estas rutas con tus imágenes
-    'img/musica/jugo.jpeg',
-    'img/musica/baño.jpeg',
-    'img/musica/nerd.jpeg',
-    'img/musica/lentes.jpeg',
-    'img/musica/hehe.jpeg',
-    'img/musica/rosa.jpeg',
-    'img/musica/spider.jpeg',
-    'img/musica/uwu.jpeg',
-    'img/musica/woa.jpeg',
-    'img/musica/parado.jpeg',
-    'img/musica/bat.jpeg',
-    'img/musica/game.jpeg',
-    'img/musica/ciga.jpeg',
-    'img/musica/mucho.jpeg',
-    'img/musica/call.jpeg',
+    'img/gato.jpeg',  // Cambia estas rutas con tus imágenes
+    'img/jugo.jpeg',
+    'img/baño.jpeg',
+    'img/nerd.jpeg',
+    'img/lentes.jpeg',
+    'img/hehe.jpeg',
+    'img/rosa.jpeg',
+    'img/spider.jpeg',
+    'img/uwu.jpeg',
+    'img/woa.jpeg',
+    'img/parado.jpeg',
+    'img/bat.jpeg',
+    'img/game.jpeg',
+    'img/ciga.jpeg',
+    'img/mucho.jpeg',
+    'img/call.jpeg',
     // Puedes agregar más imágenes aquí
 ];
 
 // imágenes de fondo
 const fondos = [
-    'url("img/Musica/Snoopy.jpeg")',
-    'url("img/Musica/logo.jpeg")'
+    'url("img/Snoopy.jpeg")',
+    'url("img/logo.jpeg")'
 ];
 
 // Medidas de las imagenes de fondo
@@ -116,11 +116,11 @@ const fondoTitulo = [
 
 // Aqui puedes EDITAR las listas de imágenes, GIFs y textos para cada transicion
 const opciones = [
-    { img: 'img/musica/bailesnoop.gif', text: 'Estuve escuchando una cancion... ❤️👀', gif: 'img/musica/piano.gif' },
-    { img: 'img/musica/data.jpeg', text: '❤️ Y QUIERO DEDICARTELA 💕', gif: 'img/musica/amor.gif' }
+    { img: 'img/bailesnoop.gif', text: 'Estuve escuchando una cancion... ❤️👀', gif: 'img/piano.gif' },
+    { img: 'img/data.jpeg', text: '❤️ Y QUIERO DEDICARTELA 💕', gif: 'img/amor.gif' }
 ];
 
-const musicaSrc = 'musica/sci-fi.mp3'; // Aqui se cambia el archivo por otra cancion
+const musicaSrc = 'img/musica/sci-fi.mp3'; // Aqui se cambia el archivo por otra cancion
 let index = 0;
 
 
